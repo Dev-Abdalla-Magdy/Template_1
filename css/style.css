@@ -121,6 +121,9 @@ a {
 .hide {
     display: none;
 }
+.show {
+    display: block;
+}
 /* End Components */
 
 /* Start Header */
@@ -179,7 +182,6 @@ a {
 }
 
 .header .container .links ul {
-    /* display: none; */
     background-color: var(--main-color, #10cab7);
     position: absolute;
     right: 0;
