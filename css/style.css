@@ -108,9 +108,19 @@ a {
     gap: 25px;
 }
 
-/* .shown {
+.scroller {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 0px;
+    height: 5px;
+    background-color: var(--main-color, #10cab7);
+    z-index: 999999;
+}
 
-} */
+.hide {
+    display: none;
+}
 /* End Components */
 
 /* Start Header */
@@ -169,7 +179,7 @@ a {
 }
 
 .header .container .links ul {
-    display: none;
+    /* display: none; */
     background-color: var(--main-color, #10cab7);
     position: absolute;
     right: 0;

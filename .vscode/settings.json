@@ -33,7 +33,9 @@
   "C_Cpp_Runner.useAddressSanitizer": false,
   "C_Cpp_Runner.showCompilationTime": false,
   "cSpell.words": [
+    "scroller",
     "showlinks",
     "targetstyledisplay"
-  ]
+  ],
+  "liveServer.settings.port": 5501
 }
